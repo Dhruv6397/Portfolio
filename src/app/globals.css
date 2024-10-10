@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -9,19 +9,41 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #111827;
     --foreground: #ededed;
   }
 }
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
 
+* {
+  scrollbar-width: none; /* Firefox */
+}
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Dosis',  sans-serif;
+}
+
+
+@keyframes spin3D {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(360deg) }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
+}
+.image-3d {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3); /* 3D shadow for images */
+  transition: transform 0.3s ease-in-out; /* Animation for hover effects */
+}
+
+.image-3d:hover {
+  animation: spin3D 2s ease-in-out 1;
+  /*transform: translateY(-5px) rotate(-2deg); /* Floating effect with slight rotation */
 }
