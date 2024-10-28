@@ -2,16 +2,16 @@
 
 const NameAnimation = () => {
   return (
-    <section className="flex  bg-[#111827] m-9 max-w-fit top-5  ">
+    <section className="flex  bg-[#F5F7F8] m-9 max-w-fit top-5  ">
       <div className="relative">
         {/* First h2 with stroke effect */}
-        <h2 className="text-transparent text-9xl font-poppins" style={{ WebkitTextStroke: '5px #E53E3E' }}>
+        <h2 className="text-transparent text-[10em] text-gray-800 font-poppins " style={{ WebkitTextStroke: '5px black' }}>
           DHRUV
         </h2>
         {/* Second h2 with animation */}
-        <h2 className="text-[#EDF2F7] text-9xl font-poppins animate-clip-animation absolute top-0 left-0">
+        {/* <h2 className="text-[#EDF2F7] text-9xl font-poppins animate-clip-animation absolute top-0 left-0">
           DHRUV
-        </h2>
+        </h2> */}
       </div>
       <style jsx>{`
         @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");

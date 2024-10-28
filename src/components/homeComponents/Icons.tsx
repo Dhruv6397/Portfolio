@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 export default function Icons() {
   return (
-    <div className="ml-[20%] mt-[8%] max-w-fit flex space-x-4 ">
+    <div className=" mt-[4%] max-w-fit flex space-x-4 ">
       <a href="https://www.linkedin.com/in/dhruv6397/" target="_blank" rel="noopener noreferrer">
         <div className="bg-blue-500 p-3 rounded-full image-3d">
           <LinkedInIcon className="text-white transform hover:scale-105 transition-transform duration-300 " style={{ fontSize: 30 }} />

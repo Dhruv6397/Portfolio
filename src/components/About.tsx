@@ -21,9 +21,9 @@ import MyImage from "../logos/image.png";
 
 const About: React.FC = () => {
   return (
-    <div className="min-h-screen bg-[#111827] flex items-center justify-center overflow-hidden mb-5">
+    <div className="min-h-screen  flex items-center justify-center overflow-hidden mb-5">
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-4xl mx-auto overflow-y-auto">
-        <h1 className="text-4xl font-extrabold text-teal-600 mb-6 text-center">
+        <h1 className="text-4xl font-extrabold text-gray-800 mb-6 text-center">
           About Me
         </h1>
         <p className="text-lg leading-relaxed text-gray-700 text-center mb-8">
@@ -38,7 +38,7 @@ const About: React.FC = () => {
             alt="Dhruv"
             width={192}
             height={192}
-            className="rounded-full shadow-lg border-4 border-teal-500 image-3d"
+            className="rounded-full shadow-lg border-4 border-gray-800 image-3d"
           />
         </div>
         <p className="mt-8 text-lg leading-relaxed text-gray-700 text-center">
@@ -46,7 +46,7 @@ const About: React.FC = () => {
         </p>
 
         {/* Skills Section */}
-        <h2 className="text-2xl font-bold text-teal-600 mt-8 mb-4 text-center">Skills</h2>
+        <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4 text-center">Skills</h2>
 
         {/* Frontend Technologies */}
         <h3 className="text-xl font-semibold text-gray-800 mt-6 text-center">Frontend Technologies</h3>

@@ -1,8 +1,8 @@
-import Hero from "@/components/homeComponents/Hero";
+import Home from "@/components/Home";
 export default function page() {
   return (
     <div>
-      <Hero/>
+      <Home/>
     </div>
   )
 }

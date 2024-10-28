@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #111827;
+    --background: #F5F7F8;
     --foreground: #ededed;
   }
 }
@@ -38,12 +38,20 @@ body {
   }
 
 }
+
+
 .image-3d {
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3); /* 3D shadow for images */
   transition: transform 0.3s ease-in-out; /* Animation for hover effects */
 }
 
 .image-3d:hover {
-  animation: spin3D 2s ease-in-out 1;
-  /*transform: translateY(-5px) rotate(-2deg); /* Floating effect with slight rotation */
+  /* animation: spin3D 2s ease-in-out 1; */
+  transform: translateY(-5px) rotate(-10deg); /* Floating effect with slight rotation */
+}
+.name-an{
+  transition: transform 0.3s ease-in-out;
+}
+.name-an:hover{
+  transform: translateZ(-10px) rotate(-2deg) ;
 }
